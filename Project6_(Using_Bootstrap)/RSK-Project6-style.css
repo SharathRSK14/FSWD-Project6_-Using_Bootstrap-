@@ -1,0 +1,151 @@
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+    .bgheader{
+        position: relative;          
+    }
+    .navbar{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8% ;
+        background-color: rgba(80, 80, 80, 0.8);
+    }   
+
+    #HeaderMenu ul li a:hover{
+        background-color: rgb(72, 235, 107);
+    }
+
+    .secondheader{
+        background-image: url(Pictures/b2a.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .secondheader1{
+        display:grid;
+        justify-content: center;
+        text-align: center; 
+        padding: 100px 0;
+        color: whitesmoke;
+        background-color: rgba(31, 29, 31, 0.671);
+    }
+
+    .thirdcontent{
+        background-image: linear-gradient(rgba(31, 29, 31, 0.871), rgba(31, 29, 31, 0.671)), url(Pictures/b2a.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .MyTeam3 .profile .profile-social-media{
+        background-color:rgba(44, 43, 43, 0.822);
+    }
+
+    .MyTeam3 .profile .profile-social-media a{
+        text-decoration: none;
+    }
+
+    .MyTeam3 .profile {
+        position: relative;
+    }
+    
+    .MyTeam3 .profile .profile-overlay {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .MyTeam3 .profile:hover .profile-overlay {
+        opacity: 1;
+    }
+
+    .MyTeam3 .profile img{
+        border-top-right-radius: 25px;
+    }
+
+    .MyTeam3 .profiledata{
+        border-bottom-left-radius: 25px;
+        background-color: #c8c9ca;
+    }
+    .MyTeam3 .profiledata .profiledata-text{
+        min-height: 50px;
+        max-height: 50px;
+        justify-content: center;
+    }
+
+    .gallery-option button{
+        width: 100%;
+    }
+
+
+    .gallery-option .btn:hover{
+        background-color: rgb(72, 235, 107);
+    }
+
+    .gallery-option .btn:checked{
+        background-color: rgb(72, 235, 107);
+    }
+
+    .input-group-text{
+        width: 50px;
+    }
+
+    .PricingPlan3 .card{
+        border: solid 2px rgb(183, 187, 190);
+    }
+
+    .PricingPlan3 .card-title{
+        height: 120px;
+    }
+    .PricingPlan3 .PerMonth{
+        height: 110px; 
+        width: 115px; 
+        position: absolute; 
+        margin-top: 65px; 
+        border: solid 3px seashell;
+    }
+
+    .WhatClientSay1 .card{
+        padding: 5% 10%;
+    }
+
+    .MyClients .card{
+        width:100%; 
+        border-top-right-radius: 50px;
+    }
+
+    .MyClients .card-body{
+        height: 100px; 
+        border-top-right-radius: 50px; 
+        font-size: xxx-large; 
+        font-weight: 700; 
+    }
+
+    .MyClients .card-footer{
+        font-size: x-large;
+        font-weight: 700; 
+    }
+
+    .SuccessStory1 i{
+        border-top-left-radius: 5px; 
+        border-top-right-radius: 5px;
+    }
+
+</style>
